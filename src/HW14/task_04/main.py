@@ -11,11 +11,13 @@ def main():
             desision_0 = int(input('u desision is? '))
         except ValueError:
             print('chose 1 or 2')
-        if desision_0 != 1 or desision_0 != 2:
+        if desision_0 != 1 and desision_0 != 2:
             print('only one or two')
-        start_2()
-        if desision_0 == 1:
+
             continue
+
+        if desision_0 == 1:
+            start_2()
             desision = input('Write your desision sir : ')
             try:
                 desision = int(desision)
@@ -57,6 +59,7 @@ def main():
                         print(err)
 
         if desision_0 == 2:
+            start_2()
             desision = input('Write your desision sir : ')
             try:
                 desision = int(desision)
