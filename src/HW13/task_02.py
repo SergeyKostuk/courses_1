@@ -54,5 +54,5 @@ def main():
         print(f'{err}')
 
 
-if __name__ == "__main__":
-    main()
+
+

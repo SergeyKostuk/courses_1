@@ -71,4 +71,4 @@ class MyTimeTests(unittest.TestCase):
 
     def test_str(self):
         result = str(self.time_1)
-        self.assertMultiLineEqual(result, f'{self.time_1.hours}-{self.time_1.minutes}-{self.time_1.seconds}')
+        self.assertEqual(result, f'{self.time_1.hours}-{self.time_1.minutes}-{self.time_1.seconds}')

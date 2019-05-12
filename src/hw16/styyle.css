@@ -1,0 +1,114 @@
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {border: 1px solid grey;}
+/* границы ячеек первого ряда таблицы */
+
+/* границы ячеек тела таблицы */
+#number {
+  width: 2em;
+}
+#td {border: 1px solid grey;}
+p {
+    font-size: 16px;
+
+    margin-top: 0;
+  margin-bottom: 6px;
+}
+#header {
+  height: 80px;
+  width: 1000px;
+    ;
+    word-wrap:break-word ;
+}
+
+#cell {
+  height:110px;
+  width: 155px;
+
+float: left;
+
+}
+#cell_2 {
+  height:110px;
+  width: 95px;
+    ;
+    float: left;
+
+
+}
+#cell_3 {
+  height:141px;
+  width: 490px;
+
+    float: left;
+
+
+}
+#cell_4 {
+  height:100px;
+  width: 510px;
+
+    float: top;
+
+
+}
+#cell_5 {
+  height:50px;
+  width: 510px;
+
+    float: left;
+
+
+}
+#cell_6 {
+  height:252px;
+  width: 400px;
+
+    float: left;
+
+
+}
+#cell_7 {
+  height:172px;
+  width: 510px;
+
+    float: left;
+
+
+}
+#cell_8 {
+  height:120px;
+  width: 510px;
+
+    float: left;
+
+
+}
+#cell_9 {
+  height:150px;
+  width: 510px;
+
+    float: left;
+
+
+}
+#cell_10 {
+  height:30px;
+  width: 309px;
+
+    float: left;
+
+
+} #cell_11 {
+  height:200px;
+  width: 309px;
+
+    float: left;
+
+
+}
+  #cell_12 {
+      height: 101px;
+      width: 490px;
+
+      float: left;
+  }

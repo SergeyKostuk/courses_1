@@ -4,7 +4,7 @@ from file_with_classes import (
     Cat,
     Dog,
     Mule,
-    Horse,
+    # Horse,
     Donkey,
 )
 
@@ -15,11 +15,11 @@ def func(animals):
 
 
 def main():
-    parrot = Parrot('Kesha', 59, 'Sergey', 12, 0, 'wave')
-    cat = Cat('Lev', 5, 'Alex', 3, 4)
-    print(Pet.get_counter())
 
-    dog = Dog('Kesha', 3, 'Sergey', 12, 10)
+    cat = W('Lev', 5, 'Alex', 3, 4)
+    # print(Pet.get_counter())
+
+    # dog = Dog('Kesha', 3, 'Sergey', 12, 10)
     # func([cat, dog, parrot])
     # print(parrot.is_alive)
     # parrot.birthday()
@@ -32,11 +32,11 @@ def main():
     # parrot.fly()
     # parrot.change_weight(1)
     # print(parrot.weight)
-    print(Pet.counter)
-    print(Pet.get_counter())
-    print(cat.get_counter())
-    mule = Mule('Kesha', 59, 'Sergey', 12, 0)
-    print(Pet.random_name())
+    # print(Pet.counter)
+    # print(Pet.get_counter())
+    # print(cat.get_counter())
+    # mule = Mule('Kesha', 59, 'Sergey', 12, 0)
+    # print(Pet.random_name())
 
 if __name__ == '__main__':
     main()

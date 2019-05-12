@@ -1,0 +1,21 @@
+.wrapper {
+    display: grid;
+  grid-template-columns: minmax(150px,250px) 1fr 1fr;
+
+    grid-auto-rows: minmax(100px,auto);
+}
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}

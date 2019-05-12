@@ -2,19 +2,19 @@ from exceptions import IncorrectInputError, NoSpaces
 
 
 def summ(num_1, num_2):
-    print(float(num_1) + float(num_2))
+    return(float(num_1) + float(num_2))
 
 
 def diff(num_1, num_2):
-    print(float(num_1) - float(num_2))
+    return(float(num_1) - float(num_2))
 
 
 def mult(num_1, num_2):
-    print(float(num_1) * float(num_2))
+    return(float(num_1) * float(num_2))
 
 
 def division(num_1, num_2):
-    print(float(num_1) / float(num_2))
+    return(float(num_1) / float(num_2))
 
 
 def valid(arg_1, arg_2):

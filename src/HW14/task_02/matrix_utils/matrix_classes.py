@@ -3,7 +3,7 @@ from random import randint
 
 class Matrix:
     def __init__(self, data=None):
-        if data == None:
+        if not data:
             self.n = self.m = 5
             data = []
             for i in range(self.n):

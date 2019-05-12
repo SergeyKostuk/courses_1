@@ -27,8 +27,8 @@ def summ_el(matrix):
 
 
 def max_el(matrix):
-    max_el = max(matrix[0])
-    for row in matrix:
+    max_el = max(matrix.data[0])
+    for row in matrix.data:
         for el in row:
             if max_el < el:
                 max_el = el

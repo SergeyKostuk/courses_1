@@ -2,6 +2,16 @@ import unittest
 from hw15.src.tasks.task_02 import Point, Triangle, Circle, Square, Figure
 
 
+class PointTests(unittest.TestCase):
+    def setUp(self):
+        self.point_1 = Point(1, 1)
+        self.point_2 = Point(3, 3)
+
+    def test_point_x(self):
+        result = self.point_2.x
+        self.assertEqual(result, 3)
+
+
 class FigureTests(unittest.TestCase):
     def setUp(self):
         self.point_1 = Point(1, 1)

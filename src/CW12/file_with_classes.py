@@ -1,7 +1,7 @@
 import random
+from abc import ABC, abstractmethod
 
-
-class Pet:
+class Pet(ABC):
     counter = 0
     __private_counter = 0
 
@@ -40,7 +40,7 @@ class Pet:
 
     def change_height(self, height=None):
         self.height += height if height else 0.2
-
+    @abstractmethod
     def voice(self):
         pass
 
@@ -94,10 +94,11 @@ class Parrot(Pet):
             if self.age > 60:
                 self.is_alive = False
 
-
+    def voice(self):
+        print('meow')
 class Horse(Pet):
 
-    def voice():
+    def voice(self):
         print('IGO-go')
 
 
