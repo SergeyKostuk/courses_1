@@ -1,18 +1,3 @@
-/* внешние границы таблицы серого цвета толщиной 1px */
-table {
-    border: 1px solid grey;
-}
-
-/* границы ячеек первого ряда таблицы */
-
-/* границы ячеек тела таблицы */
-#number {
-    width: 2em;
-}
-
-#td {
-    border: 1px solid grey;
-}
 
 p {
     font-size: 16px;
@@ -22,6 +7,11 @@ p {
 }
 
 #header {
+    height: 80px;
+    width: 1000px;;
+    word-wrap: break-word;
+}
+#end {
     height: 80px;
     width: 1000px;;
     word-wrap: break-word;
